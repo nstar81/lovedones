@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 2px solid red;
+}
+.nav-container {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    font-weight: 800px;
+    padding: 20px; 
+    justify-content: center;
+    color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-shadow: 1px 1px black;
+    font-style: italic;
+    flex-wrap: wrap;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+}
+.about {
+    margin-left: auto;
+}
+   
+.login {
+    margin-right: 80px;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+.about-image {
+    width: 50vw;
+    height: 50vw;
+    background-color: orange;
+    margin: auto;
+}
+.image-desc {
+    display: flex;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.gallery {
+    gap: 10px;
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.gallery-images {
+    width: 30vw;
+    height: 25vh;
+}
